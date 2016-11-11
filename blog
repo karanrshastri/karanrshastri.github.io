@@ -1,8 +1,9 @@
+
 <!DOCTYPE html>
 <html lang="en-US">
 <html>
 <head>
- <title> <a href="https://karanrshastri.github.io/"> Karan Shastri </a></title>
+ <title>  Karan Shastri </title>
 </head>
  <h1 style="font-family:verdana;">
 <h1 style="text-align:centre;">
@@ -25,10 +26,22 @@ a:hover {
     text-decoration: underline;
 }
  </style>
- <h2><a href="https://github.com/karanrshastri" target="_blank">GitHub</a>  <a href="https://in.linkedin.com/in/karan-shastri-4ab93372" target="_blank"> LinkedIn </a> <a href="https://karanrshastri.github.io/blog">blog </a> </h2>
+ <h2><a href="https://github.com/karanrshastri" target="_blank">GitHub</a>  <a href="https://in.linkedin.com/in/karan-shastri-4ab93372" target="_blank"> LinkedIn </a> <a href="karanrshastri.github.io/blog" target="_blank"> blog </a> </h2>
 <body>
+
+<br> 
+<br>
+<center> <img src="https://github.com/karanrshastri/karanrshastri.github.io/blob/master/20160514_175534.jpg?raw=true" alt="error" align="middle" width="620" height="345"> </center>
+
 <br>
 <br>
-<h3> HEADING 1 </h3>
-<h4> Heading 2 </h4>
+
+ 
+ 
+ <p align="center"> <b>Hello, world!</b> My name is <b>Karan</b> and I'm a final year Computer Science undergrad at Alliance University, Bangalore. <br/>
+ Check out my blog where I occasionally write about technology and design, and let me know what you think at <b>karanrshastri@gmail.com</b>. <br/>
+<br> Check out my résumé here, and my projects on GitHub.
+  
+
+
 </body>
