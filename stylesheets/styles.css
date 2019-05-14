@@ -6,7 +6,7 @@ h1, h2, h3, h4, h5, h6, h7 { font-family: 'Montserrat', serif; font-weight: 700;
 .content-section { min-height: 100vh; padding-top: 70px; padding-bottom: 20px; }
 .content-section h1 { color: #9C9C9C; font-weight: 400; font-size: 30px; display: inline-block; }
 .content-section h1:after { content: ''; display: block; border-bottom: 1px solid #DFDFDF; padding-top: 3px; }
-.content-section p.lead { font-family: 'Source Sans Pro', serif; font-size: 19px; line-height: 1.35em; margin-bottom: 25px; }
+.content-section p.lead { font-family: 'Cardo', serif; font-size: 19px; line-height: 1.35em; margin-bottom: 25px; }
 .content-section p.lead em { font-size: 14px; }
 .content-section p em { font-size: 14px;}
 .content-section p mark em { font-size: inherit;}
@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6, h7 { font-family: 'Montserrat', serif; font-weight: 700;
   width: 100vw;
 }
 /*--- NAVBAR ---*/
-.navbar-default { font-family: 'Source Sans Pro', serif; background: #FFFFFF; border-bottom-color: #DFDFDF; height: 60px; margin-bottom: 0; }
+.navbar-default { font-family: 'Montserrat', serif; background: #FFFFFF; border-bottom-color: #DFDFDF; height: 60px; margin-bottom: 0; }
 .navbar-header .navbar-toggle { margin-top: 12px; }
 .navbar-header .navbar-brand { letter-spacing: -0.03em; height: 60px; padding: 30px 10px 0 10px; font-size: 36px; line-height: 0px; font-weight: 300; color: #111; white-space: nowrap; }
 .navbar-default .navbar-brand:focus { color: #111; }
@@ -66,10 +66,10 @@ h1, h2, h3, h4, h5, h6, h7 { font-family: 'Montserrat', serif; font-weight: 700;
   background: url('https://s17.postimg.org/m4bfqfgn3/fog_1005445_1920.jpg') no-repeat center center fixed;
   background-size: cover; text-shadow: 1px 1px 0 rgba(255,255,255,0.5); text-align: center;
 }
-#home h1 { font-family: 'Source Sans Pro', sans-serif; font-size: 96px; color: #000; display: inline-block; margin: 0; padding: 0; line-height: 90px; margin-top: 60px; }
+#home h1 { font-family: 'Advent Pro', sans-serif; font-size: 96px; color: #000; display: inline-block; margin: 0; padding: 0; line-height: 90px; margin-top: 60px; }
 #home h1:after { border-bottom: 1px solid #AAA;  }
 #home h5 { font-size: 16px; color: #555; }
-#home h7 { font-size: 16px; font-family: 'Source Sans Pro' , color: #555; text-align: left;}
+#home h7 { font-size: 16px; font-family: 'Advent Pro' , color: #555; text-align: left;}
 
 @media screen and (min-width: 768px) {
   #home h1 { font-size: 120px; line-height: 114px; }
@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6, h7 { font-family: 'Montserrat', serif; font-weight: 700;
   background: url('https://s18.postimg.org/z7eckrogp/seagulls_984529_1920.jpg') no-repeat top center fixed;
   background-size: cover;
   text-align: center;
-  font-family: 'Source Sans Pro', serif; 
+  
 }
 
 #portfolio-copyright{
