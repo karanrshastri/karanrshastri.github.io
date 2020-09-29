@@ -1,12 +1,10 @@
-<link>//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css</link>
-<link>//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css</link>
 /*--- GENERAL STYLES ---*/
 body { font-size: 16px; line-height: 1.5em; font-family: 'Quattrocento Sans', sans-serif; }
-h1, h2, h3, h4, h5, h6, h7 { font-family: 'Montserrat', serif; font-weight: 700; color: #1a1a1a; }
+h1, h2, h3, h4, h5, h6 { font-family: 'Montserrat', serif; font-weight: 700; color: #1a1a1a; }
 .content-section { min-height: 100vh; padding-top: 70px; padding-bottom: 20px; }
 .content-section h1 { color: #9C9C9C; font-weight: 400; font-size: 30px; display: inline-block; }
 .content-section h1:after { content: ''; display: block; border-bottom: 1px solid #DFDFDF; padding-top: 3px; }
-.content-section p.lead { font-family: 'Source Sans Pro', serif; font-size: 19px; line-height: 1.35em; margin-bottom: 25px; }
+.content-section p.lead { font-family: 'Cardo', serif; font-size: 19px; line-height: 1.35em; margin-bottom: 25px; }
 .content-section p.lead em { font-size: 14px; }
 .content-section p em { font-size: 14px;}
 .content-section p mark em { font-size: inherit;}
@@ -31,16 +29,13 @@ h1, h2, h3, h4, h5, h6, h7 { font-family: 'Montserrat', serif; font-weight: 700;
   .content-section p.lead { font-size: 22px; margin-bottom: 35px; }
 }
 
-.weiwport{
-  height: 100vh;
-  width: 100vw;
-}
+
 /*--- NAVBAR ---*/
-.navbar-default { font-family: 'Source Sans Pro', serif; background: #FFFFFF; border-bottom-color: #DFDFDF; height: 60px; margin-bottom: 0; }
+.navbar-default { font-family: 'Montserrat', serif; background: #FFFFFF; border-bottom-color: #DFDFDF; height: 60px; margin-bottom: 0; }
 .navbar-header .navbar-toggle { margin-top: 12px; }
-.navbar-header .navbar-brand { letter-spacing: -0.03em; height: 60px; padding: 30px 10px 0 10px; font-size: 36px; line-height: 0px; font-weight: 300; color: #111; white-space: nowrap; }
+.navbar-header .navbar-brand { letter-spacing: -0.03em; height: 60px; padding: 30px 10px 0 10px; font-size: 36px; line-height: 0px; font-weight: 700; color: #111; white-space: nowrap; }
 .navbar-default .navbar-brand:focus { color: #111; }
-.navbar-default .navbar-nav { background: #white; margin-top: 0; }
+.navbar-default .navbar-nav { background: #FFF; margin-top: 0; }
 .navbar-default .navbar-nav>li>a { color: #222; padding: 10px; border-bottom: 1px solid #DFDFDF; }
 .navbar-default .navbar-nav>li>a.selected { color: #E64B36; }
 .navbar-default a.navbar-brand:hover .navbar-default .navbar-nav>li>a:hover { background-color: #DFDFDF; }
@@ -66,10 +61,9 @@ h1, h2, h3, h4, h5, h6, h7 { font-family: 'Montserrat', serif; font-weight: 700;
   background: url('https://s17.postimg.org/m4bfqfgn3/fog_1005445_1920.jpg') no-repeat center center fixed;
   background-size: cover; text-shadow: 1px 1px 0 rgba(255,255,255,0.5); text-align: center;
 }
-#home h1 { font-family: 'Source Sans Pro', sans-serif; font-size: 96px; color: #000; display: inline-block; margin: 0; padding: 0; line-height: 90px; margin-top: 60px; }
+#home h1 { font-family: 'Advent Pro', sans-serif; font-size: 96px; color: #000; display: inline-block; margin: 0; padding: 0; line-height: 90px; margin-top: 60px; }
 #home h1:after { border-bottom: 1px solid #AAA;  }
 #home h5 { font-size: 16px; color: #555; }
-#home h7 { font-size: 16px; font-family: 'Source Sans Pro' , color: #555; text-align: left;}
 
 @media screen and (min-width: 768px) {
   #home h1 { font-size: 120px; line-height: 114px; }
@@ -86,32 +80,12 @@ h1, h2, h3, h4, h5, h6, h7 { font-family: 'Montserrat', serif; font-weight: 700;
   #home h5 { font-size: 24px; }
 }
 
-/*--- ABOUT ---*/
-#about {
-  background-size: cover; text-shadow: 1px 1px 0 rgba(255,255,255,0.5); text-align: left;
-}
-
-/*--- PORTFOLIO ---*/
-.content-section .thumbnail { position: relative; overflow: hidden; cursor: pointer; }
-.content-section .thumbnail * { transition: all .25s; }
-.content-section .thumbnail h4 { font-size: 19px; font-weight: 400; }
-.content-section .thumbnail p { line-height: 24px; }
-.content-section .thumbnail:hover h4, .content-section .thumbnail:hover p { color: #AFAFAF; }
-.content-section .thumbnail:hover img { opacity: 0.25;  }
-.content-section .thumbnail:after { font-family: 'FontAwesome'; content: '\f121'; color: #FFF; font-size: 48px; line-height: 80px; top: 70%; position: absolute; text-align: center; display: inline-block; width: 100%; transition: all .35s; opacity: 0; width: 86px; height: 86px; margin-left: auto; margin-right: auto; left: 0; right: 0; border-radius: 50%; background: transparent; border:3px solid transparent; }
-.content-section .thumbnail:hover:after { top: 25%; opacity: 1; color: #FFFFFF; background: #AF6204; border:3px solid #FFFFFF; }
 
 
 /*--- CONTACT ---*/
 #contact {
   background: url('https://s18.postimg.org/z7eckrogp/seagulls_984529_1920.jpg') no-repeat top center fixed;
   background-size: cover;
-  text-align: center;
-  font-family: 'Source Sans Pro', serif; 
-}
-
-#portfolio-copyright{
-  text-align: center;
 }
 
 .social-cont { max-width: 400px; }
